@@ -1,0 +1,1 @@
+console.log(math.floor(math.random()*3));

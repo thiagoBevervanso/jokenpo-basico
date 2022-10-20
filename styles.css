@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400;
+}
+#titulo{
+    color: white;
+    text-align: center;
+}
+#placar{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#jogador, #computador{
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+    color: #fff;
+}
+#jogador{
+    background-color: #fff711;
+}
+
+#computador{
+    background-color: #0050EF;
+}
+
+ul#computadorescolha,  ul#jogadorescolha{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+
+}
+ul#jogadorescolha li, ul#computadorescolha li{
+    display: inline;
+}
+    ul#jogadorescolha li a, ul#computadorescolha li a{
+text-align: center;
+    }
+    ul#jogadorescolha li a{
+        opacity: .2;
+    }
+    ul#jogadorescolha li a:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+
+ul#jogadorescolha li a img, ul#computadorescolha li a img{
+    max-width: 80px;
+}
+
+button{
+    background-color: transparent;
+    
+ border-color: transparent;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.divider {
+    display: flex;
+  }
+  .divider:before, .divider:after {
+    content: "";
+    flex: 1;
+  }
+  
+  .line {
+    align-items: center;
+    margin: 1em -1em;
+  }
+  .line:before, .line:after {
+    height: 1px;
+    margin: 0 1em;
+  }
+  
+
+.glow:before, .glow:after {
+    height: 6px;
+    
+    border-radius: 5px;
+  }
+  .glow:before {
+    background: linear-gradient(to right, rgba(238, 255, 0, 0.904), rgb(255, 255, 255));
+  }
+  .glow:after {
+    background: linear-gradient(to left,rgba(16, 0, 247, 0.856), rgb(255, 255, 255));
+  }
+ 
