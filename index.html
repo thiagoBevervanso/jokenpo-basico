@@ -3,24 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOKENPO DO ARRAIA 2.0 BITURBO</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>JOKENPO DO ARRAIA 2.0 BITURBO  nitrado</title>
 </head>
 <body>
 <div id="main">
-    <h1 id="titulo"> Pedra, Papel e Tesoura</h1>
+    
+    <h3 class="divider line glow" style="color: whitesmoke;" content>Pedra, Papel e Tesoura</h3>
     <div id="placar">
         <div id="jogador">
-            <h2 id="nome-jogador"> Thiago</h2>
-            <span id="jogador-pontos">0</span>
-            
+            <h2 id="nome-jogador" style="color: black ;">Jogador Desafiante</h2>
+            <span id="jogador-pontos" style="color: black;"><b>0</b></span>
+           
             <ul id="jogadorescolha">
-                <li><a  id="jogador-escolha-1"><img src="img/pedra.ico" ></a></li>
-                <li><a  id="jogador-escolha-2"><img src="img/papel.ico" ></a></li>
-                <li><a  id="jogador-escolha-3"><img src="img/tesoura.ico" ></a></li>
+               <button id="bot"> <li><a  id="jogador-escolha-1"><img src="img/pedra.ico" ></a></li></button>
+                    <button id="bot" > <li><a  id="jogador-escolha-2"><img src="img/papel.ico" ></a></li></button>
+                        <button id="bot"> <li><a  id="jogador-escolha-3"><img src="img/tesoura.ico" ></a></li></button>
+            </ul>
+           
+        </div>
+        
+        <div id="versus">vs</div>
+
+        <div id="computador">
+            <h2 id="nome-computador" style="color: black;"> Computador</h2>
+            <span id="computador-pontos" style="color: black;"><b>0</b></span>
+            
+            <ul id="computadorescolha">
+                <li><a  id="computador-escolha-1"><img src="img/pedra.ico" ></a></li>
+                <li><a  id="computador-escolha-2"><img src="img/papel.ico" ></a></li>
+                <li><a  id="computador-escolha-3"><img src="img/tesoura.ico" ></a></li>
             </ul>
         </div>
+        
+
+        
+    </div>
     </div>    
  </div>
     
 </body>
+<script src="js/javascript.js"></script>
 </html>
