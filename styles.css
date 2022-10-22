@@ -54,7 +54,9 @@ text-align: center;
     ul#jogadorescolha li a, ul#computadorescolha li a{
         opacity: .2;
     }
-    ul#jogadorescolha li a:hover, ul#jogadorescolha li a.selecionado, ul#computadorescolha li a.selecionado {
+    ul#jogadorescolha li a:hover, ul#jogadorescolha li a.selecio
+    
+    nado, ul#computadorescolha li a.selecionado {
         opacity: 1;
         cursor: pointer;
     }
